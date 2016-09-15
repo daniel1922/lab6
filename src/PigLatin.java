@@ -11,7 +11,9 @@ public class PigLatin {
 		Scanner sc = new Scanner(System.in); 
 		String original;
 		String translated;
+		String userCont;
 		char firstletter; 
+		boolean Cont; 
 		
 	//welcomes and asks user to enter a word
 		System.out.println("Welcome to the Pig Latin Translator!");
@@ -24,8 +26,11 @@ public class PigLatin {
 	    
 	//change entered word into all lowercase characters    
 	//if starts with a vowel add way to the end
-	   
-	    if(true){ //update if statement 
+	    System.out.println("Continue? (y/n)");
+		userCont =input.nextLine();
+	    
+	    if(userCont.equalsIgnoreCase("y")){
+	    	userCont=true); //update if statement 
 	        //need to figure out build specification 3
 	    }
 	    else {
